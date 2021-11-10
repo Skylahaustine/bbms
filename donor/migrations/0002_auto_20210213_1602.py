@@ -15,15 +15,12 @@ class Migration(migrations.Migration):
             model_name='donor',
             name='age',
         ),
-        migrations.RemoveField(
-            model_name='donor',
-            name='disease',
-        ),
+        
         migrations.CreateModel(
             name='BloodDonate',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('disease', models.CharField(default='Nothing', max_length=100)),
+
                 ('age', models.PositiveIntegerField()),
                 ('bloodgroup', models.CharField(max_length=10)),
                 ('unit', models.PositiveIntegerField(default=0)),

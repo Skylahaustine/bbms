@@ -23,10 +23,7 @@ class Migration(migrations.Migration):
             old_name='name',
             new_name='patient_name',
         ),
-        migrations.RemoveField(
-            model_name='bloodrequest',
-            name='disease',
-        ),
+      
         migrations.RemoveField(
             model_name='bloodrequest',
             name='mobile',

@@ -22,7 +22,7 @@ class Migration(migrations.Migration):
                 ('age', models.PositiveIntegerField()),
                 ('bloodgroup', models.CharField(max_length=10)),
                 
-                ('doctorname', models.CharField(max_length=50)),
+               
                 ('address', models.CharField(max_length=40)),
                 ('mobile', models.CharField(max_length=20)),
                 ('user', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
