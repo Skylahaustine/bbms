@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=30)),
                 ('age', models.PositiveIntegerField()),
                 ('mobile', models.CharField(max_length=20)),
-                ('disease', models.CharField(max_length=100)),
+               
                 ('reason', models.CharField(max_length=500)),
                 ('bloodgroup', models.CharField(max_length=10)),
                 ('unit', models.PositiveIntegerField(default=0)),
